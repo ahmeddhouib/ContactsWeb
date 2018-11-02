@@ -1,17 +1,29 @@
 {
     "extends": "../tslint.json",
-    "rules": {
-        "directive-selector": [
-            true,
-            "attribute",
-            "app",
-            "camelCase"
-        ],
-        "component-selector": [
-            true,
-            "element",
-            "app",
-            "kebab-case"
-        ]
+    "rules": {  // regle de compilateur type script
+
+      // add by Ahmed
+      "no-duplicate-variable" : true,
+      "no-unused-variable" : true
+
+      // comment by Ahmed (pour faciliter le codage en type script)
+
+      //        "directive-selector": [
+//            true,
+//            "attribute",
+//            "app",
+//            "camelCase"
+//        ],
+//        "component-selector": [
+//            true,
+//            "element",
+//            "app",
+//            "kebab-case"
+//        ]
+
+
+
+
+
     }
 }
