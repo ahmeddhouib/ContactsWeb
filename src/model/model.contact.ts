@@ -1,9 +1,8 @@
-import {Input} from '@angular/core';
 
 export class Contact{
   id: number ;
   nom: string = "" ;
-  prenom: string="";
+  prenom: string = "" ;
   email: string="";
   dateNaissance:Date;
   tel: number=0;

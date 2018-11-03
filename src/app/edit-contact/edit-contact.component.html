@@ -1,6 +1,6 @@
 <div class="container spacer">
   <div class="panel panel-primary" *ngIf="mode==1">
-    <div class="panel-heading">nouveau contact</div>
+    <div class="panel-heading">edit contact</div>
     <div class="panel-body">
       <div>
         <div class="form-group">
@@ -23,7 +23,7 @@
           <label class="control-label">Téléphone:</label>
           <input class="form-control" type="tel" [(ngModel)]="contact.tel"/>
         </div>
-       <button class="btn btn-primary" (click)="saveContact()">Save</button>
+        <button class="btn btn-primary" (click)="UpdateContact()">Save</button>
       </div>
     </div>
   </div>
