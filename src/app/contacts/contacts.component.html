@@ -11,13 +11,15 @@
 
       <table class="table table-striped">
         <tr>
-          <th>ID</th><th>Nom</th><th>Prénom</th><th>Email</th>
+          <th>ID</th><th>Nom</th><th>Prénom</th><th>Email</th><th>Edit</th><th>Delete</th>
         </tr>
         <tr *ngFor="let c of pageContacts">
           <td>{{c.id}}</td>
           <td>{{c.nom}}</td>
           <td>{{c.prenom}}</td>
           <td>{{c.email}}</td>
+          <td><a (click)="onEditContact(c.id)" class="clickable">Edit</a></td>
+          <td><a (click)="onDeleteContact(c)" class="clickable">Delete</a></td>
         </tr>
       </table>
 

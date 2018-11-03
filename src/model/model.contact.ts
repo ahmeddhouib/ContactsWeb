@@ -1,13 +1,12 @@
-import {Input} from '@angular/core';
 
 export class Contact{
- // id: number ;
-  @Input()   nom: string = "" ;
-  @Input() prenom: string="";
-  @Input() email: string="";
-  @Input() dateNaissance:Date;
-  @Input() tel: number=0;
-  @Input() photo: string="";
+  id: number ;
+  nom: string = "" ;
+  prenom: string = "" ;
+  email: string="";
+  dateNaissance:Date;
+  tel: number=0;
+  photo: string="";
 
 
 
